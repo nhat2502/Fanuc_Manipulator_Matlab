@@ -17,3 +17,7 @@ This project focuses on the mathematical modeling and simulation of the FANUC M-
 *   `SourceMatlab/`: Contains all MATLAB source code, GUI files, and Simulink models.
 *   `M-20iA35M_URDF_final/`: Contains the exported URDF model from SolidWorks.
 *   `fanuc_robot_simulate_report.pdf`: Comprehensive report detailing the methodology and simulation results.
+
+## 🎥 Simulation Video (Click on Picture)
+[![demo](https://github.com/user-attachments/assets/62073a8f-0e06-4351-90d4-b1c90d623da1)](https://drive.google.com/file/d/1zqe8e0UqTjf2a8iz2-RpAGMRuo8zkGr4/view?usp=sharing)
+
