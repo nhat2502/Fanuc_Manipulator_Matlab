@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="M-20iA35M_URDF_final">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00266170807940261 0.000141008612470534 0.140256917527808"
+        rpy="0 0 0" />
+      <mass
+        value="185.626805408531" />
+      <inertia
+        ixx="2.58771207398431"
+        ixy="0.00370675153243079"
+        ixz="0.0258388656853941"
+        iyy="2.64050590916559"
+        iyz="0.00163008445158766"
+        izz="2.40776114855991" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.941176470588235 0.674509803921569 0.117647058823529 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="0.0702356849851005 0.0631669791280642 0.468996729772983"
+        rpy="0 0 0" />
+      <mass
+        value="300.194347095722" />
+      <inertia
+        ixx="4.39127988143457"
+        ixy="0.0164944302520405"
+        ixz="-0.603778091899895"
+        iyy="4.36794126881693"
+        iyz="-0.170131058496114"
+        izz="4.87422468370764" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.941176470588235 0.674509803921569 0.117647058823529 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_1"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="0.149099475634361 0.375092878380265 0.168859822001182"
+        rpy="0 0 0" />
+      <mass
+        value="113.625293143253" />
+      <inertia
+        ixx="6.68311193265569"
+        ixy="-2.48737955595147"
+        ixz="0.01748213931232"
+        iyy="1.41903418185771"
+        iyz="0.0456092827009326"
+        izz="7.75501080625973" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.796078431372549 0.823529411764706 0.937254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_2"
+    type="revolute">
+    <origin
+      xyz="0.149499015882567 -0.0122492550884645 0.524999999999904"
+      rpy="1.5707963267949 0 -0.0817527360312907" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="0.0999783957577378 -0.045299623888673 -0.0153900952229181"
+        rpy="0 0 0" />
+      <mass
+        value="123.095309437663" />
+      <inertia
+        ixx="2.16237081526655"
+        ixy="0.309760892104397"
+        ixz="0.101764184310904"
+        iyy="2.21760997164009"
+        iyz="0.298559197626443"
+        izz="1.58477149132959" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.941176470588235 0.674509803921569 0.117647058823529 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_3"
+    type="revolute">
+    <origin
+      xyz="0.291906970178036 0.734091493453943 0"
+      rpy="0 0 1.19232275936331" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_4">
+    <inertial>
+      <origin
+        xyz="-7.60726554129842E-05 -0.0128846501027914 0.585472805261112"
+        rpy="0 0 0" />
+      <mass
+        value="68.3376928925673" />
+      <inertia
+        ixx="1.99390603778058"
+        ixy="0.000159441314358275"
+        ixz="-0.000854838507985959"
+        iyy="1.99361434358089"
+        iyz="0.161864962796074"
+        izz="0.16180684064358" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.796078431372549 0.823529411764706 0.937254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_4"
+    type="revolute">
+    <origin
+      xyz="0.145224641452102 0.0375473503074232 0"
+      rpy="1.5707963267949 0 0.253006290119125" />
+    <parent
+      link="Link_3" />
+    <child
+      link="Link_4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_5">
+    <inertial>
+      <origin
+        xyz="0.00383156830303633 -0.00138344182233063 0.00203233199248619"
+        rpy="0 0 0" />
+      <mass
+        value="9.96059555684517" />
+      <inertia
+        ixx="0.0291415549005696"
+        ixy="-0.00296439705455264"
+        ixz="1.59164185672608E-05"
+        iyy="0.0125254311497853"
+        iyz="-0.000176032213935487"
+        izz="0.0298630777384601" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.796078431372549 0.823529411764706 0.937254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_5"
+    type="revolute">
+    <origin
+      xyz="0 0 0.860000000000003"
+      rpy="-1.5707963267949 0 0.000687076517143853" />
+    <parent
+      link="Link_4" />
+    <child
+      link="Link_5" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Link_6">
+    <inertial>
+      <origin
+        xyz="2.11501129407932E-05 3.71130167902903E-05 0.0917515793813908"
+        rpy="0 0 0" />
+      <mass
+        value="0.204774692110219" />
+      <inertia
+        ixx="3.85914415942713E-05"
+        ixy="7.54191454281079E-08"
+        ixz="-2.27311689306353E-08"
+        iyy="3.86807980820017E-05"
+        iyz="-3.98868695957978E-08"
+        izz="7.01434171187614E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.796078431372549 0.823529411764706 0.937254901960784 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://M-20iA35M_URDF_final/meshes/Link_6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="theta_6"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="1.5707963267949 0 -0.152414968671932" />
+    <parent
+      link="Link_5" />
+    <child
+      link="Link_6" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

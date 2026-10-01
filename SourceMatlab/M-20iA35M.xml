@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/12/25||22:55:07" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.3.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="M-20iA35M" uid="M-20iA35M" version="71564">
+<AssemblyFile name="M-20iA35M.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="M-20iA35M cover J2^M-20iA35M-1" uid="M-20iA35M cover J2^M-20iA35M-1" entityUid="M-20iA35M cover J2^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.97845005315620837 -0.20648363973596923 -9.6434435756538672e-16 0.20648363973596923 0.97845005315620837 -3.7995160740113817e-16 1.0220165787404609e-15 1.7264233754948431e-16 1</Rotation>
+<Translation>1.6341078928395854e-14 -1.3360109143824052e-13 0.52690000000001402</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis6^M-20iA35M-1" uid="M-20iA35M axis6^M-20iA35M-1" entityUid="M-20iA35M axis6^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.88120975112259914 0.45129053170790695 -0.14073461023231421 0.076805102611692364 -0.43043412229024619 -0.89934834329142599 -0.46644437046581905 0.78170539358445001 -0.41396416137357323</Rotation>
+<Translation>1.0816079919777448 0.22825319926189569 1.3092522657439769</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis2^M-20iA35M-1" uid="M-20iA35M axis2^M-20iA35M-1" entityUid="M-20iA35M axis2^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.97310687842059318 -0.2064836397359667 0.10211517855792282 0.20535606233577522 0.97845005315620859 0.021549504415593675 -0.10436422199429339 4.6529512404520889e-16 0.99453914411023858</Rotation>
+<Translation>0.14676750797369514 0.030972545960247067 0.52499999999989544</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis4^M-20iA35M-1" uid="M-20iA35M axis4^M-20iA35M-1" entityUid="M-20iA35M axis4^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.9636207184159753 -0.25077330885563459 0.092454629981825728 0.20335418514383322 0.91238246806255319 0.35525386325354963 -0.17344217025846806 -0.32352894698570728 0.93018645122273846</Rotation>
+<Translation>0.2528941741399538 0.053368600038178816 1.4584125321662706</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M base^M-20iA35M-1" uid="M-20iA35M base^M-20iA35M-1" grounded="true" entityUid="M-20iA35M base^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis1^M-20iA35M-1" uid="M-20iA35M axis1^M-20iA35M-1" entityUid="M-20iA35M axis1^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.97845005315620814 -0.20648363973596889 0 0.20648363973596889 0.97845005315620814 -1.8501944137072555e-16 0 1.84169208764634e-16 0.99999999999999989</Rotation>
+<Translation>1.6129887438709403e-14 -1.3361739876782191e-13 0.52500000000001346</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M Fork Pockets^M-20iA35M-1" uid="M-20iA35M Fork Pockets^M-20iA35M-1" entityUid="M-20iA35M Fork Pockets^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>-0.97845005315620814 0.20648363973596889 6.9247528073183603e-15 -0.20648363973596889 -0.97845005315620814 2.089597199672915e-15 7.2069923877848032e-15 6.1471832716806396e-16 0.99999999999999989</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis3^M-20iA35M-1" uid="M-20iA35M axis3^M-20iA35M-1" entityUid="M-20iA35M axis3^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.96362071841597563 -0.20648363973596887 0.16970450070892584 0.20335418514383199 0.97845005315620814 0.03581297059867429 -0.17344217025846786 -2.9027697110446099e-16 0.9848440554605753</Rotation>
+<Translation>0.22743849903363639 0.047996654448385169 1.3106859238471762</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M axis5^M-20iA35M-1" uid="M-20iA35M axis5^M-20iA35M-1" entityUid="M-20iA35M axis5^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.88120975112259692 -0.25077330885563454 0.40072699196840611 0.076805102611682302 0.91238246806255319 0.40206866103302974 -0.46644437046582465 -0.32352894698570767 0.82326099732895131</Rotation>
+<Translation>1.0816079919777437 0.22825319926189566 1.3092522657439776</Translation>
+</Transform>
+</Instance>
+<Instance name="M-20iA35M cover J4^M-20iA35M-1" uid="M-20iA35M cover J4^M-20iA35M-1" entityUid="M-20iA35M cover J4^M-20iA35M*:*Défaut">
+<Transform>
+<Rotation>0.9636207184159753 -0.206483639735969 0.16970450070892659 0.20335418514383211 0.97845005315620814 0.03581297059867404 -0.17344217025846845 1.6471380960727844e-16 0.98484405546057507</Rotation>
+<Translation>0.22271844939581323 0.046880856743457204 1.3090989986166088</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Coaxiale1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.14999999999999997 -0.19289999999999999 0</Position>
+<Axis>-1.1102230246251565e-16 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 -0.18689999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Coaxiale2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M base^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 0 0.17999999999999999</Position>
+<Axis>-1.81007079977463e-16 -2.2204460492503151e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 0 -499.99999949999989</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 0 -0.21739999999999993</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M base^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 0 0.23500000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 -0.14989999999999998 0.24290916124947659</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000002 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Coaxiale3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 -0.079999999999999988 0.79000000000000015</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 0.11991248085099637 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.075000000000000067 -0.12899999999999998 0.67000000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Coaxiale4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.14405000000000001 0 0.14999999999999969</Position>
+<Axis>1.0000000000000002 1.3361299469129902e-16 -1.3877787807814457e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.21400000000000002 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.42199999999999999 0.022999999999999965 0.05400000000000027</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.08750000000000005 -0.050999999999999997 0.098999999999999977</Position>
+<Axis>-1.0000000000000002 0 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.096794399988070767 0.16071713929474649 0.15260301915017038</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.11700000000000008 0.15899999999999997 0.15259999999999985</Position>
+<Axis>0 1 2.6516251298612586e-16</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.11700000000000008 0.15899999999999997 0.15259999999999985</Position>
+<Axis>1.0000000000000002 0 -2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.11679439998807081 0.16071713929474651 0.15260301915017016</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.084900000000000031 -0.12843346842943359 0.1526030191501706</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis3^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.098999999999999949 0.15899999999999997 0.15260000000000007</Position>
+<Axis>1.1102230246251565e-16 -3.1363312504495852e-16 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Coaxiale5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.86000000000000032 0.052799999999999958 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis5^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0.04450000000000004 4.4408920985006262e-16</Position>
+<Axis>-1.3877787807814457e-16 -1.0000000000000002 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis5^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.047999999999999821 0.049500000000000044 4.4408920985006262e-16</Position>
+<Axis>0 1.0000000000000002 1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis4^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.86000000000000032 0.07779999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Coaxiale6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis5^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.093000000000000083 1.1102230246251565e-16 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis6^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.092999999999999861 0 1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis6^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.10000000000000009 0 0.025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis5^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.089500000000000135 1.1102230246251565e-16 0.036150000000000126</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coïncidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.091399999999999981 -0.037999999999999992 -0.051217139995811178</Position>
+<Axis>-1 -4.163336342344339e-16 -9.9867783252637565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.091400000000000065 0.045873442420521826 -0.13539999999999996</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coïncidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.037802000000000002 0.04519999999999999 0.017712919855357501</Position>
+<Axis>-4.163336342344337e-16 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.11455240904621444 0.045200000000000025 0.24206044430328399</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coïncidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.1825 -0.63076864236321295 0.092500000000000027</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M cover J2^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.15000000000000008 0.045200000000000025 0.090600000000000014</Position>
+<Axis>-2.220446049250321e-16 2.2204460492503151e-16 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Coaxiale7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.060499999999999991 -0.14650000000000002 -0.20639999999999997</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M Fork Pockets^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.060499999999999998 0.14999999999999999 0.31859999999999994</Position>
+<Axis>-4.440892098500639e-16 1 -7.9312992087577883e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Coaxiale8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.060500000000000005 -0.14649999999999999 -0.20639999999999992</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>M-20iA35M Fork Pockets^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.060499999999999991 0.14999999999999997 0.31859999999999994</Position>
+<Axis>-4.440892098500639e-16 1 -7.9312992087577883e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coïncidente5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M axis1^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>-0.075499999999999984 -0.14649999999999999 -0.1873999999999999</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>M-20iA35M Fork Pockets^M-20iA35M-1</Uid>
+</InstancePath>
+<Position>0.045499999999999999 0.14649999999999999 0.3335999999999999</Position>
+<Axis>4.440892098500639e-16 -1 7.943306035047479e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="M-20iA35M Fork Pockets^M-20iA35M" uid="M-20iA35M Fork Pockets^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>11.85783767511465</Mass>
+<CenterOfMass>0 0 0.30468790068090518</CenterOfMass>
+<Inertia>0.96023125551496535 0.059378910282885985 0.98309384525259813 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M Fork Pockets-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis1^M-20iA35M" uid="M-20iA35M axis1^M-20iA35M*:*Défaut" version="150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>159.09148894271084</Mass>
+<CenterOfMass>0.066454667856154032 0.009949414727574532 -0.067656157130135106</CenterOfMass>
+<Inertia>3.1370600131839823 2.6152710844216003 3.3224952483764238 -0.24388811167347407 -0.56545702587518443 0.054450999842146082</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis1-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis2^M-20iA35M" uid="M-20iA35M axis2^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>113.62529051730471</Mass>
+<CenterOfMass>-5.008472281647178e-05 -0.16885981639050185 0.40364006528056617</CenterOfMass>
+<Inertia>7.672493933982663 7.755011409152254 0.42965271502088775 -0.048841195350786779 -0.00072985866203090818 0.00060782470927349657</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis2-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis3^M-20iA35M" uid="M-20iA35M axis3^M-20iA35M*:*Défaut" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>98.268011044386967</Mass>
+<CenterOfMass>0.087554808439237006 -0.0048723473335620521 0.083711347709413228</CenterOfMass>
+<Inertia>1.9852775993646619 1.4766015283909653 2.2052040579431709 -0.16697823637701448 -0.28728659926093025 0.26271373144130983</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis3-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis4^M-20iA35M" uid="M-20iA35M axis4^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>68.337397641175841</Mass>
+<CenterOfMass>0.585473678178563 -0.012884600730276457 8.516821447202641e-05</CenterOfMass>
+<Inertia>0.23066705030920129 2.0773963639030706 2.1465482108608831 -7.5473638417025409e-05 0.00083660096260314201 0.085906003599765357</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis4-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis5^M-20iA35M" uid="M-20iA35M axis5^M-20iA35M*:*Défaut" version="116">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.9606334505219483</Mass>
+<CenterOfMass>0.00078575366002034473 0.0020324347254941462 -0.0039971528430087309</CenterOfMass>
+<Inertia>0.012018782728510887 0.02986312221425394 0.029648258917904784 -4.2456308764551322e-05 -0.00033422074766166786 0.00017156316831841418</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis5-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M axis6^M-20iA35M" uid="M-20iA35M axis6^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20477469484205557</Mass>
+<CenterOfMass>0.0917515793113311 5.398628606762259e-10 -4.2716559246800157e-05</CenterOfMass>
+<Inertia>7.0143418079261256e-05 3.8548460754569383e-05 3.8723779815552398e-05 -4.7223260160804202e-15 4.5909354855213894e-08 -2.9341063844155547e-13</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M axis6-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M base^M-20iA35M" uid="M-20iA35M base^M-20iA35M*:*Défaut" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>185.62680540853148</Mass>
+<CenterOfMass>0.002661708079402603 0.00014100861247053412 0.14025691752780792</CenterOfMass>
+<Inertia>2.5877120739843122 2.64050590916559 2.4077611485599117 0.0016300844515876477 0.025838865685393994 0.0037067515324307777</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M base-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Diffuse r="0.94117647058823528" g="0.67450980392156867" b="0.11764705882352941" a="1"/>
+<Specular r="0.56470588235294117" g="0.40470588235294119" b="0.070588235294117646" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.02</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M cover J2^M-20iA35M" uid="M-20iA35M cover J2^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>129.24512415087096</Mass>
+<CenterOfMass>0.068807823755093631 0.14730115889711029 -0.02848452964251932</CenterOfMass>
+<Inertia>1.1629575549379523 1.6966428890156244 1.4402907764449078 0.025050400635989279 -0.02251100359495431 -0.036241827536369314</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M cover J2-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M-20iA35M cover J4^M-20iA35M" uid="M-20iA35M cover J4^M-20iA35M*:*Défaut" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M-20iA35M.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>24.827378975944285</Mass>
+<CenterOfMass>-0.00051788598577184701 0.095707461064676619 0.094767450946547094</CenterOfMass>
+<Inertia>0.34973873174394948 0.37236726894327432 0.11789396641125185 -0.04915689174875864 0.0088608252379549415 0.0018301504685243036</Inertia>
+</MassProperties>
+<GeometryFile name="M-20iA35M cover J4-M-20iA35M_Défaut_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Diffuse r="0.79607843137254897" g="0.82352941176470584" b="0.93725490196078431" a="1"/>
+<Specular r="0.75627450980392152" g="0.78235294117647047" b="0.89039215686274509" a="1"/>
+<Emissive r="0.063686274509803922" g="0.065882352941176475" b="0.074980392156862752" a="1"/>
+<Shininess>0.55000000000000004</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
